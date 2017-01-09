@@ -1,0 +1,15 @@
+#txt {
+    text-align: center;
+    color: blue;
+    font-size: 90px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-size: 50px;
+}
+#demo {
+	font-family: Arial, Helvetica, sans-serif;
+}
