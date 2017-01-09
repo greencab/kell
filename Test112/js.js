@@ -1,5 +1,4 @@
 
-
 function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -11,14 +10,7 @@ function startTime() {
     h + ":" + m + ":" + s ;
     var t = setTimeout(startTime, 500);
 }
-	var d = new Date();
-	var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-	document.getElementById("demo").innerHTML = days[d.getDay()];
-	
 function checkTime(i) {
-    if (i < 10) {i = "0" + i}; 
+    if (i < 10) {i = "0" + i};
     return i;
 }
-
-
-
