@@ -75,10 +75,3 @@ body {
 	font-size: 200px;
 	text-align: center;
 }
-h2 {
-	position: fixed;
-	text-align: center;
-	bottom: 0px;
-	width: 100%;
-	color: white;
-}
