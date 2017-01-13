@@ -16,18 +16,18 @@ function loadWeather() {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
 
-    $.getJSON(url + apiKey + "/" + latitude + "," + longitude + "?callback=?", function(data) {
-      weather.text("Based on your current location, it is " + data.currently.temperature + "° F right now");
+    $.getJSON(url + apiKey + "/" + latitude + "," + longitude + "?units=si&callback=?", function(data) {
+      weather.text("Based on your current location, it is " + data.currently.temperature + "° C right now");
     });
   }
 
   function error() {
-    alert("Unable to retrieve your location for weather");
+    alert("Sorry, can't find your location :(");
   }
 
   navigator.geolocation.getCurrentPosition(success, error);
 
-  weather.text("fetching weather...");
+  weather.text("Be prepared to see how cold it is....");
 }
 function toCelsius(f) {
     return (5/9) * (data.currently.temperature-32);

@@ -40,9 +40,8 @@ h1 {
 	*/
 	text-align: center;
 	color: white;
-	font-size: 150px;
+	font-size: 160px;
 	top: 50%;
-	position: fixed;
 	left: 35%;
 }
 #paev {
@@ -72,8 +71,10 @@ body {
     src: url('fonts/space.ttf'); /*URL to font*/
 }
 #test {
-	font-size: 200px;
 	text-align: center;
+	color: black;
+	font-size: 190px;
+	left: 35%;
 }
 h2 {
 	position: fixed;
